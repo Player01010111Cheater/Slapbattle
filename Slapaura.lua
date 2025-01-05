@@ -17,7 +17,7 @@ local slapaura = Combat:AddToggle({
     else
       l:Notify("Slap aura off" , "" , 3)
   end
-    while wait(0.5) do
+    while wait(1) do
       if startslapaura == true then
         for _, v in pairs(workspace:GetChildren()) do
           for _, t in pairs(game.Players:GetChildren()) do
